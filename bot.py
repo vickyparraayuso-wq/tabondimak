@@ -13,8 +13,8 @@ MESSAGES = [
 ]
 
 # Tiempo aleatorio entre mensajes (en segundos).
-MIN_DELAY = 15 * 60
-MAX_DELAY = 60 * 60
+MIN_DELAY = 60
+MAX_DELAY = 5 * 60
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
